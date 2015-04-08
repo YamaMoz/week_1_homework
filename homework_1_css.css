@@ -20,11 +20,14 @@ h2 small {
   font-weight: normal;
 }
 dt {
-	width:15%;
-	float:left;
+  float: left;
+  clear: left;
+  width: 13%;
 }
+
 dd {
-	width:80%;
+  width: 80%;
+  float: right;
 }
 .mytable {
 	border-collapse:collapse;
@@ -59,13 +62,20 @@ th{
 	text-align: center;
 	font-style:italic;
 }
+
 blockquote {
 	font-style:italic;
 	margin:auto;	
 }
+
 .author {
 	text-align:right;
 }
+
 a {
 	text-decoration:none;
+}
+
+section {
+	clear:both;
 }
